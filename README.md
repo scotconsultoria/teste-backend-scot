@@ -1,17 +1,15 @@
 # Teste para candidatos à vaga de desenvolvedor back-end
 
 ### Instruções
-
-1. Criar um banco de dados "Graos" com as seguintes tabelas "tb_soja" e "tb_milho" ambas com as seguintes colunas id(auto incremento), estado, cidade e compra.
-2. Desenvolver uma automação que leia a aba de "milho" e "soja" da planilha 'Grao.xlsx' e insira esses dados no banco criado.
+1. Crie um novo banco de dados no seu servidor MySQL chamado "Graos".
+2. Crie duas novas tabelas no banco de dados "Graos" chamadas "tb_soja" e "tb_milho". Ambas as tabelas devem ter as seguintes colunas: id (auto incremento), estado, cidade e compra.
+3. Escrever um código que possa ler as informações da planilha 'Grao.xlsx' nas abas "milho" e "soja", e em seguida, inserir essas informações nas tabelas "tb_milho" e "tb_soja" do banco de dados "Graos" que você criou anteriormente.
 
 ### O que esperamos:
-
 1. Python
 2. Pandas
 3. MySQL
-3. Criar um passo a passo de como rodar sua aplicação
-
+3. Um passo a passo de como rodar sua aplicação.
 
 ### Atenção
 
