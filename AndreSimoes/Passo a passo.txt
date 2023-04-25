@@ -1,0 +1,7 @@
+1 - Alterar os parametros do arquivo .env com os dados do seu MySQL local.
+2 - Executar o script: create_db.sql no utilitario de gerenciamento do Mysql
+        ou execute o arquivo: createdb.py, para criar o Banco e as tabelas
+3 - Execute o arquivo: teste_backend.py para ler e inserir as informações no Banco
+        ou ainda para melhor visualização dos dados, vá pelo notebook: teste_backend.ipynb
+4 - As bibliotecas necessarias para funcionamento estão em requirements.txt
+        também podem ser instaladas pelo comando: pip install -r requirements.txt
