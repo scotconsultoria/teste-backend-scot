@@ -1,22 +1,73 @@
-# Teste para candidatos à vaga de desenvolvedor back-end
+# Teste Técnico – Desenvolvedor Back-end
 
-### Instruções
-1. Crie um novo banco de dados no seu servidor MySQL chamado "Graos".
-2. Crie duas novas tabelas no banco de dados "Graos" chamadas "tb_soja" e "tb_milho". Ambas as tabelas devem ter as seguintes colunas: id (auto incremento), estado, cidade e compra.
-3. Escrever um código que possa ler as informações da planilha 'Grao.xlsx' nas abas "milho" e "soja", e em seguida, inserir essas informações nas tabelas "tb_milho" e "tb_soja" do banco de dados "Graos" que você criou anteriormente.
+## Objetivo
+Avaliar a capacidade do candidato de manipular dados, trabalhar com banco de dados e estruturar um código back-end simples e organizado.
 
-### O que esperamos:
-1. Python
-2. Pandas
-3. MySQL
-3. Um passo a passo de como rodar sua aplicação.
+---
 
-### Atenção
+## Instruções
 
-* É permitido usar qualquer editor de código e consultar a internet.
+### 1. Banco de Dados
+- Crie um banco de dados MySQL chamado **Graos**
+- Crie duas tabelas:
+  - `tb_soja`
+  - `tb_milho`
 
-Ao terminar o teste, solicite um pull request. 
+Ambas devem conter as seguintes colunas:
+- `id` (inteiro, chave primária, auto incremento)
+- `estado`
+- `cidade`
+- `compra`
 
-Em caso de dúvidas, envie e-mail para at@scotconsultoria.com.br
+> Fica a critério do candidato definir os tipos de dados adequados para cada coluna.
 
-**Boa sorte!**
+---
+
+### 2. Leitura de dados
+- Desenvolva um código em **Python** que:
+  - Leia o arquivo **Grao.xlsx**
+  - Utilize as abas:
+    - `milho`
+    - `soja`
+  - Insira os dados lidos nas tabelas correspondentes:
+    - Aba `milho` → `tb_milho`
+    - Aba `soja` → `tb_soja`
+
+---
+
+### 3. Requisitos gerais
+- Utilize **Pandas** para leitura e manipulação dos dados
+- Utilize **MySQL** como banco de dados
+- O código deve ser claro, organizado e funcional
+
+---
+
+## O que esperamos
+- Python
+- Pandas
+- MySQL
+- Um **passo a passo** explicando como rodar a aplicação localmente
+
+---
+
+## Critérios de avaliação
+- Organização do código
+- Clareza e legibilidade
+- Boas práticas
+- Tratamento básico de erros
+- Estrutura da solução proposta
+
+---
+
+## Observações
+- É permitido usar qualquer editor de código
+- É permitido consultar a internet durante o teste
+
+---
+
+## Entrega
+Ao finalizar o teste, solicite um **Pull Request**.
+
+Em caso de dúvidas, envie um e-mail para **at@scotconsultoria.com.br**
+
+**Boa sorte! 🚀**
