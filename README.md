@@ -66,7 +66,31 @@ Ambas devem conter as seguintes colunas:
 ---
 
 ## Entrega
-Ao finalizar o teste, solicite um **Pull Request**.
+
+Envie sua solução em um arquivo **.zip** para **at@scotconsultoria.com.br** em até **10 dias corridos** após o recebimento do teste.
+
+- **Assunto do e-mail:** `Teste Back-end – Seu Nome`
+- **Nome do arquivo:** `teste-backend-seu-nome.zip`
+
+> ⚠️ **Não** faça fork nem Pull Request deste repositório.
+
+### O .zip deve conter
+- Todo o código-fonte do projeto
+- Um arquivo **`README.md` na raiz** com o passo a passo para executar o projeto, incluindo:
+  - Pré-requisitos e versões utilizadas
+  - Instalação de dependências
+  - Configuração necessária
+  - Comando(s) para executar (ex.: `python main.py`)
+- Arquivo `requirements.txt` com as dependências Python
+- Script SQL de criação do banco e das tabelas (ex.: `database.sql`)
+
+### Não inclua no .zip
+- Pastas de dependências (`node_modules`, `vendor`, `venv`, `.venv`, `__pycache__`)
+- Arquivos com senhas reais (`.env`); envie um `.env.example` no lugar
+
+> Se o arquivo passar de 20 MB, envie um link de download (Google Drive, WeTransfer etc.).
+
+---
 
 Em caso de dúvidas, envie um e-mail para **at@scotconsultoria.com.br**
 
